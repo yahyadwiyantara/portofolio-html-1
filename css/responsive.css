@@ -1,0 +1,198 @@
+@media (max-width: 1200px) {
+    html {
+        font-size: 9px; 
+    } 
+
+    /* HEADER */
+
+    .header__utama--judul {
+        font-size: 3.5rem;
+        letter-spacing: 0.5rem; 
+    } 
+
+    .header__utama--keterangan {
+        font-size: 1rem;
+        letter-spacing: 0.3rem; 
+    } 
+}
+  
+@media (max-width: 1000px) {
+    html {
+        font-size: 8px; 
+    } 
+
+    .m-btm-lg {
+        margin-bottom: 4rem !important; 
+    } 
+
+    .m-btm-md {
+        margin-bottom: 3rem !important; 
+    }
+
+    .row {
+        max-width: 50rem; 
+    }
+
+    .row [class^="col-"] {
+        width: 100% !important;
+        margin-bottom: 4rem !important;
+        margin-right: 0 !important;
+        float: none; 
+    }
+    
+    /* NAVIGATION */
+
+    .navigation__link {
+        font-size: 2.3rem; 
+    }
+
+    /* ABOUT */
+
+    .section-about {
+        padding: 15rem 0 7rem; 
+    }
+
+    .composition__photo {
+        width: 33.333333%;
+        position: relative;
+        float: left; 
+    }
+
+    .composition__photo--1 {
+        top: 0;
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1); 
+    }
+
+    .composition__photo--2 {
+        top: 0;
+        right: 0;
+        -webkit-transform: scale(1.4);
+        transform: scale(1.4);
+        z-index: 20; 
+    }
+
+    .composition__photo--3 {
+        top: 0;
+        left: 0;
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1); 
+    }
+
+    /* FEATURE */
+
+    .section-feature {
+        padding: 15rem 0 5rem;
+        -webkit-clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
+        clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%); 
+    }
+
+    /* PRICE */
+    
+    .section-price {
+        padding: 15rem 0 2rem;
+    }
+
+    .card {
+        height: auto;
+        background: #fff;
+        box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.2); 
+    }
+
+    .card__sisi {
+        height: auto;
+        position: relative;
+        width: 100%;
+        border-radius: 5px;
+        box-shadow: none; 
+    }
+
+    .card__sisi--depan {
+        -webkit-transform: rotateY(0);
+        transform: rotateY(0); 
+    }
+
+    /* CONTACT */
+
+    .section-contact {
+        padding: 10rem 0 2rem; 
+    }
+
+    .contact {
+        height: auto;
+        background: linear-gradient(105deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 100%, transparent 100%), url("../img/bg-3.jpg") no-repeat top/cover; 
+    }
+
+    .contact__form {
+        width: 100%; 
+    }
+
+    /* FOOTER */
+
+    .footer__navigation {
+        width: 100%;
+        text-align: center; 
+    }
+
+    .footer__copyright {
+        width: 100%;
+        float: none;
+        text-align: center; 
+    }
+}
+  
+@media (max-width: 670px) {
+    html {
+        font-size: 7px; 
+    } 
+
+    .row {
+        max-width: 50rem; 
+    }
+
+    .row [class^="col-"] {
+        width: 100% !important;
+        margin-bottom: 4rem !important;
+        margin-right: 0 !important;
+        float: none;
+        padding: 0 3rem; 
+    }
+
+    /* HEADER */
+
+    .header {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%); 
+    }
+
+    .header__utama--judul {
+        font-size: 2.5rem;
+        letter-spacing: 0.5rem; 
+    } 
+
+    .header__utama--keterangan {
+        font-size: 1rem;
+        letter-spacing: 0.3rem; 
+    } 
+
+    .header__kedua {
+        font-size: 3rem; 
+    } 
+
+    /* FEATURE */
+
+    .section-feature {
+        padding: 30rem 0 20rem;
+        -webkit-clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
+        clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%); 
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .header {
+        background: linear-gradient(to right bottom, rgba(0, 108, 255, 0.8), rgba(218, 0, 255, 0.8)), url("../img/bg-1.jpg");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover; 
+    } 
+}
